@@ -22,3 +22,12 @@ x = u * cos(a) * t
 y = u * sin(a) * t - 0.5 * g * t * t
 
 vx = u * cos(a)
+vy = u * sin(a) - g * t
+v = sqrt(vx * vx + vy * vy)
+theta = atan(vy / vx) * 180.0 / pi
+
+write(*,*) 'x: ',x,' y: ',y
+write(*,*) 'v: ',v,' theta: ',theta
+
+end program projectile
+

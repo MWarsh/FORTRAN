@@ -1,0 +1,53 @@
+=-------------------------------------------------------------------------------=
+|Common Intrinsic Functions|							|
+|---------------------------							|
+|										|
+|Name		Action								|
+|										|
+|ABS(A)		    absolute value of any A					|
+|ACOS(X)	    inverse cosine in the range (0,pi) in radians		|
+|AIMAG(Z)	    imaginary part of Z						|
+|AINT(X [,KIND])    truncates fractional part towards zero, returning REAL	|
+|ANINT(X [,KIND])   nearest integer, returning REAL				|
+|ASIN(X)	    inverse sine in the range(-pi/2,pi/2) in radians		|
+|ATAN(X)	    inverse tangent in the range(-pi/2,pi/2) in radians		|
+|ATAN2(Y,X)	    inverse tangent of Y/X in the range (-pi,pi) in radians	|
+|CMPLX(X[,Y][,KIND] converts to COMPLEX X+iY; if Y is absent, 0 is used		|
+|CONJG(Z)	    complex conjugate of Z					|
+|COS(W)		    cosine of argument in radians				|
+|COSH(X)	    hyperbolic cosine						|
+|EXP(W)		    exponential function					|
+|FLOOR(X)	    greatest INTEGER less than X				|
+|INT(A [,KIND])	    converts to integer, truncating(real part) towards zero 	|
+|KIND(A)	    INTEGER function, returns the KIND of the argument		|
+|LOG(W)		    natural logarithm: if W is REAL it must be positive,	|
+|		    if W is COMPLEX, imaginary part of result lies in (-pi,pi)	|
+|LOG10(X)	    logarithm to base 10					|
+|MAX(R1,R2...)	    maximum of arguments, all of the same type			|
+|MIN(R1,R2...)	    minimum of arguments, all of the same type			|
+|MOD(R1,R2)	    remainder of R1 on division by R2, both arguments		|
+|MODULO(R1,R2)	    R1 modulo R2: (R1-FLOOR(R1/R2)*R2)				|
+|NINT(X [,KIND])    nearest INTEGER						|
+|REAL(A [,KIND])    converts to REAL						|
+|SIGN(R1,R2)	    absolute value of R1 multiplied by th sign of R2		|
+|SIN(W)		    sine of argument in radians					|
+|SINH(X)	    hyperbolic sine						|
+|SQRT(W)	    square root function; for complex argument the result	|
+|		    is in the right half-plane; a real argument must be		|
+|		    positive							|
+|TAN(X)		    tangent of argument in radians				|
+|TANH(X)	    hyperbolic tangent						|
+|										|
+|xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|
+|xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|
+|-- F95 has a set of over a hundred intrinsic functions, those in the list above|
+|   are the most useful for scientific applications.				|
+|										|
+|-- In this list A represents any type of numeric variable, R a REAL or INTEGER |
+|   variable, X and Y REAL variables, Z a COMPLEX variable and W a REAL or	|
+|   COMPLEX variable.								|
+|										|
+|-- Arguments in space brackets are optiional.					|
+|										|
+|										|
+=-------------------------------------------------------------------------------=
