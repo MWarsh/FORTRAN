@@ -1,0 +1,8 @@
+------------------------------------------------------------
+|Operator	Precedence	Meaning			   |
+|**		    1		Raise to the power of	   |
+|*		    2		Multiplication		   |
+|/		    2		Division		   |
+|+		    3		Addition or unary plus	   |
+|-		    3		Subtraction or unary minus |
+------------------------------------------------------------

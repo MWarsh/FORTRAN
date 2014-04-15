@@ -1,0 +1,9 @@
+=-----------------------------------------------=
+| Type of a	Type of b	Type of result	|
+| integer	integer		integer		|
+| integer	real		real		|
+| integer	complex		complex		|
+| real		real		real		|
+| real		complex		complex		|
+| complex	complex		complex		|
+=-----------------------------------------------=
